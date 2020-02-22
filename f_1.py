@@ -45,6 +45,8 @@ def place_marker(board, marker, position):
 
 # STEP_1.4
 
+# Функция которая принимает доску в качестве аргумента и проверяет кто победитель (?! *** разобрать!)
+
 def win_check(board, mark):
     return ((board[7] == mark and board[8] == mark and board[9] == mark) or  # across the top
             (board[4] == mark and board[5] == mark and board[6] == mark) or  # across the middle
