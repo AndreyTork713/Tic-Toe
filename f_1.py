@@ -2,6 +2,8 @@
 
 #STEP_1.1
 
+# Построение доски
+
 from IPython.display import clear_output
 # Из библиотеки IPython.display импортирую метод clear_output, который очищает
 # доску каждый раз перед созданием новой игры
